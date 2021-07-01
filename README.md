@@ -8,4 +8,4 @@ Execute TestRunner to run
 mvn clean test
 
 # Report
-Report will be generated to folder report
+Report will be generated to src/report
