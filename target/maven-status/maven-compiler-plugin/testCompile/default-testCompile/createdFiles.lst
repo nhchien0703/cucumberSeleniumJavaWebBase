@@ -1,0 +1,5 @@
+PageObjects\TranslatePage.class
+utils\GlobalConfig.class
+steps\TranslateSteps.class
+runner\TestRunner.class
+utils\Common.class

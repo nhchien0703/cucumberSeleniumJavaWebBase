@@ -1,0 +1,149 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 2123284348,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TranslateSteps.beforeEachScenario()"
+            }
+          }
+        ],
+        "line": 3,
+        "name": "Try to test a translate case",
+        "description": "",
+        "id": "test-google-translate;try-to-test-a-translate-case",
+        "after": [
+          {
+            "result": {
+              "duration": 2708004786,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TranslateSteps.afterEachScenario()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 6298805217,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I am in google translate page",
+            "match": {
+              "location": "TranslateSteps.iAmInGoogleTranslatePage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 272768930,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I input a text to input textbox",
+            "match": {
+              "location": "TranslateSteps.iInputATextToInputTextbox()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1073422255,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "The result will show the translate result",
+            "match": {
+              "location": "TranslateSteps.theResultWillShowTheTranslateResult()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 1771712785,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TranslateSteps.beforeEachScenario()"
+            }
+          }
+        ],
+        "line": 8,
+        "name": "Try to test a translate case FAIL",
+        "description": "",
+        "id": "test-google-translate;try-to-test-a-translate-case-fail",
+        "after": [
+          {
+            "result": {
+              "duration": 2702873978,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TranslateSteps.afterEachScenario()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 6629171466,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I am in google translate page",
+            "match": {
+              "location": "TranslateSteps.iAmInGoogleTranslatePage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 189547084,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I input a text to input textbox",
+            "match": {
+              "location": "TranslateSteps.iInputATextToInputTextbox()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 258045,
+              "error_message": "java.lang.Exception: Fail this test\r\n\tat steps.TranslateSteps.theResultWillShowTheTranslateResultFAIL(TranslateSteps.java:43)\r\n\tat ✽.Then The result will show the translate result FAIL(Translate.feature:11)\r\n",
+              "status": "failed"
+            },
+            "line": 11,
+            "name": "The result will show the translate result FAIL",
+            "match": {
+              "location": "TranslateSteps.theResultWillShowTheTranslateResultFAIL()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Test google translate",
+    "description": "",
+    "id": "test-google-translate",
+    "keyword": "Feature",
+    "uri": "Translate.feature"
+  }
+]

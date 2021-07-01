@@ -1,0 +1,14 @@
+-------------------------------------------------------------------------------
+Test set: runner.TestRunner
+-------------------------------------------------------------------------------
+Tests run: 8, Failures: 0, Errors: 2, Skipped: 0, Time elapsed: 24.103 sec <<< FAILURE!
+Then The result will show the translate result FAIL(Scenario: Try to test a translate case FAIL)  Time elapsed: 0.005 sec  <<< ERROR!
+java.lang.Exception: Fail this test
+	at steps.TranslateSteps.theResultWillShowTheTranslateResultFAIL(TranslateSteps.java:43)
+	at ?.Then The result will show the translate result FAIL(Translate.feature:11)
+
+Scenario: Try to test a translate case FAIL  Time elapsed: 0.005 sec  <<< ERROR!
+java.lang.Exception: Fail this test
+	at steps.TranslateSteps.theResultWillShowTheTranslateResultFAIL(TranslateSteps.java:43)
+	at ?.Then The result will show the translate result FAIL(Translate.feature:11)
+
