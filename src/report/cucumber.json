@@ -6,7 +6,7 @@
         "before": [
           {
             "result": {
-              "duration": 2123284348,
+              "duration": 9001179762,
               "status": "passed"
             },
             "match": {
@@ -21,7 +21,7 @@
         "after": [
           {
             "result": {
-              "duration": 2708004786,
+              "duration": 2674764851,
               "status": "passed"
             },
             "match": {
@@ -34,7 +34,7 @@
         "steps": [
           {
             "result": {
-              "duration": 6298805217,
+              "duration": 1576094473,
               "status": "passed"
             },
             "line": 4,
@@ -46,7 +46,7 @@
           },
           {
             "result": {
-              "duration": 272768930,
+              "duration": 186233992,
               "status": "passed"
             },
             "line": 5,
@@ -58,7 +58,7 @@
           },
           {
             "result": {
-              "duration": 1073422255,
+              "duration": 1070549564,
               "status": "passed"
             },
             "line": 6,
@@ -74,7 +74,7 @@
         "before": [
           {
             "result": {
-              "duration": 1771712785,
+              "duration": 8976047948,
               "status": "passed"
             },
             "match": {
@@ -83,13 +83,13 @@
           }
         ],
         "line": 8,
-        "name": "Try to test a translate case FAIL",
+        "name": "Try to test a translate case using parameter",
         "description": "",
-        "id": "test-google-translate;try-to-test-a-translate-case-fail",
+        "id": "test-google-translate;try-to-test-a-translate-case-using-parameter",
         "after": [
           {
             "result": {
-              "duration": 2702873978,
+              "duration": 2667617607,
               "status": "passed"
             },
             "match": {
@@ -102,7 +102,7 @@
         "steps": [
           {
             "result": {
-              "duration": 6629171466,
+              "duration": 1791717005,
               "status": "passed"
             },
             "line": 9,
@@ -114,10 +114,278 @@
           },
           {
             "result": {
-              "duration": 189547084,
+              "duration": 217349070,
               "status": "passed"
             },
             "line": 10,
+            "name": "I input the following text to textbox",
+            "match": {
+              "location": "TranslateSteps.iInputTheFollowingTextToTextbox(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "searchtext"
+                ],
+                "line": 11
+              },
+              {
+                "cells": [
+                  "test in put parameter"
+                ],
+                "line": 12
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1046626736,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "The result will show the following text",
+            "match": {
+              "location": "TranslateSteps.theResultWillShowTheFollowingText(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "translatetext"
+                ],
+                "line": 14
+              },
+              {
+                "cells": [
+                  "test in put parameter"
+                ],
+                "line": 15
+              }
+            ],
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 8527868322,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TranslateSteps.beforeEachScenario()"
+            }
+          }
+        ],
+        "line": 23,
+        "name": "Try to test a multiple translate cases",
+        "description": "",
+        "id": "test-google-translate;try-to-test-a-multiple-translate-cases;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 2681205467,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TranslateSteps.afterEachScenario()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1781297288,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "I am in google translate page",
+            "match": {
+              "location": "TranslateSteps.iAmInGoogleTranslatePage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 179065705,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "I input text example text 1 to input textbox",
+            "match": {
+              "arguments": [
+                {
+                  "val": "example text 1",
+                  "offset": 13
+                }
+              ],
+              "location": "TranslateSteps.iInputTextTextToInputTextbox(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1043607925,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "The result will show the translate result as example text 1",
+            "match": {
+              "arguments": [
+                {
+                  "val": "example text 1",
+                  "offset": 45
+                }
+              ],
+              "location": "TranslateSteps.theResultWillShowTheTranslateResultAsTranslateText(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 8459796637,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TranslateSteps.beforeEachScenario()"
+            }
+          }
+        ],
+        "line": 24,
+        "name": "Try to test a multiple translate cases",
+        "description": "",
+        "id": "test-google-translate;try-to-test-a-multiple-translate-cases;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 2676426512,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TranslateSteps.afterEachScenario()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1505143374,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "I am in google translate page",
+            "match": {
+              "location": "TranslateSteps.iAmInGoogleTranslatePage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 178219387,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "I input text example text 2 to input textbox",
+            "match": {
+              "arguments": [
+                {
+                  "val": "example text 2",
+                  "offset": 13
+                }
+              ],
+              "location": "TranslateSteps.iInputTextTextToInputTextbox(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1043177752,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "The result will show the translate result as example text 2",
+            "match": {
+              "arguments": [
+                {
+                  "val": "example text 2",
+                  "offset": 45
+                }
+              ],
+              "location": "TranslateSteps.theResultWillShowTheTranslateResultAsTranslateText(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 7879848726,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TranslateSteps.beforeEachScenario()"
+            }
+          }
+        ],
+        "line": 26,
+        "name": "Try to test a translate case FAIL",
+        "description": "",
+        "id": "test-google-translate;try-to-test-a-translate-case-fail",
+        "after": [
+          {
+            "result": {
+              "duration": 2671864982,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TranslateSteps.afterEachScenario()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2039265865,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "I am in google translate page",
+            "match": {
+              "location": "TranslateSteps.iAmInGoogleTranslatePage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 159126655,
+              "status": "passed"
+            },
+            "line": 28,
             "name": "I input a text to input textbox",
             "match": {
               "location": "TranslateSteps.iInputATextToInputTextbox()"
@@ -126,11 +394,11 @@
           },
           {
             "result": {
-              "duration": 258045,
-              "error_message": "java.lang.Exception: Fail this test\r\n\tat steps.TranslateSteps.theResultWillShowTheTranslateResultFAIL(TranslateSteps.java:43)\r\n\tat ✽.Then The result will show the translate result FAIL(Translate.feature:11)\r\n",
+              "duration": 366466,
+              "error_message": "java.lang.Exception: Fail this test\r\n\tat steps.TranslateSteps.theResultWillShowTheTranslateResultFAIL(TranslateSteps.java:51)\r\n\tat ✽.Then The result will show the translate result FAIL(Translate.feature:29)\r\n",
               "status": "failed"
             },
-            "line": 11,
+            "line": 29,
             "name": "The result will show the translate result FAIL",
             "match": {
               "location": "TranslateSteps.theResultWillShowTheTranslateResultFAIL()"

@@ -13,10 +13,4 @@ public class GlobalConfig {
         System.setProperty("webdriver.chrome.driver", "src/driver/chromedriver.exe");
         driver = new ChromeDriver();
     }
-
-    public static void goToHomePage() {
-        driver.get(baseUrl);
-        driver.manage().window().maximize();
-        Assert.assertEquals("Google Translate", driver.getTitle());
-    }
 }

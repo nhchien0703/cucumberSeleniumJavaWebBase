@@ -1,7 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2c73d790-97e7-483a-b287-4467d3ce9883" name="Default Changelist" comment="" />
+    <list default="true" id="2c73d790-97e7-483a-b287-4467d3ce9883" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/report/cucumber.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/report/cucumber.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/report/cucumberhtmlreport/report.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/report/cucumberhtmlreport/report.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/PageObjects/TranslatePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/PageObjects/TranslatePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/features/Translate.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/features/Translate.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/steps/TranslateSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/steps/TranslateSteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/utils/Common.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utils/Common.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/utils/GlobalConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utils/GlobalConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/PageObjects/TranslatePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/PageObjects/TranslatePage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/steps/TranslateSteps.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/steps/TranslateSteps.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/utils/Common.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/utils/Common.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/utils/GlobalConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/utils/GlobalConfig.class" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,6 +29,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
       <MavenImportingSettings>
@@ -24,6 +41,7 @@
   </component>
   <component name="ProjectId" id="1uf9N4eQqsMTVokcvFEe0PFM86I" />
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
@@ -45,6 +63,24 @@
     </option>
   </component>
   <component name="RunManager" selected="JUnit.TestRunner">
+    <configuration name="Feature: Translate (1)" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="1.2" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/features/Translate.feature" />
+      <option name="GLUE" value="steps" />
+      <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
+      <module name="WebTest" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome" />
+      <option name="SUGGESTED_NAME" value="Feature: Translate" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cucumber.api.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Feature: Translate" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="1.2" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/resources/Translate.feature" />
@@ -95,24 +131,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BasicTest.FirstTest" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="WebTest" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="steps.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="tests" />
-      <option name="MAIN_CLASS_NAME" value="steps.BasicTest" />
-      <option name="METHOD_NAME" value="FirstTest" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="D:/SeleniumJava/javaSeleniumWebBase/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="WebTest" />
       <option name="SUITE_NAME" value="$PROJECT_DIR$/testng.xml" />
@@ -126,10 +144,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.TestRunner" />
+        <item itemvalue="Cucumber java.Feature: Translate (1)" />
         <item itemvalue="Cucumber java.Feature: Translate" />
         <item itemvalue="TestNG.D:/SeleniumJava/javaSeleniumWebBase/testng.xml" />
         <item itemvalue="TestNG.BasicTest" />
-        <item itemvalue="TestNG.BasicTest.FirstTest" />
       </list>
     </recent_temporary>
   </component>
@@ -144,6 +162,29 @@
       <option name="presentableId" value="Default" />
       <updated>1625045733131</updated>
     </task>
+    <task id="LOCAL-00001" summary="add pojo">
+      <created>1625564437540</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1625564437540</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="add pojo" />
+    <option name="LAST_COMMIT_MESSAGE" value="add pojo" />
   </component>
 </project>
